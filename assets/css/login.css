@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/loginbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+
+.login-reg-box {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  width: 400px;
+  height: 260px;
+  background-color: rgba(20, 20, 20, 0.406);
+}
+
+.login-reg-box h2 {
+  text-align: center;
+  line-height: 48px;
+  background-color: rgba(92, 204, 239, 0.655);
+  border-radius: 10px 10px 0px 0px;
+  font-family: monospace;
+  font-size: 25px;
+
+}
+
+.loginPart,
+.regPart {
+  padding: 0 40px;
+}
+
+.go2log,
+.go2reg {
+  display: flex;
+  justify-content: end;
+}
+
+.go2reg a,
+.go2log a {
+  color: rgb(241, 234, 234);
+  font-size: 13px;
+}
+
+.regPart {
+  display: none;
+}
+
+.layui-form-item {
+  position: relative;
+}
+
+.layui-icon {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  color: rgba(20, 20, 20, 0.406);
+}
+
+.layui-input {
+  padding-left: 32px;
+}

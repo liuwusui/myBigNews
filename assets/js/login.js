@@ -38,7 +38,7 @@ $(function () {
         username: $('#reg_form [name=username]').val(),
         password: $('#reg_form [name=password]').val()
       },
-      success: function (res) {
+      success: function (res) {   
         if (res.status != 0) {
           // return console.log(res.message)
           return layer.msg(res.message, {
